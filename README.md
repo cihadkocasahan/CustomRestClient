@@ -3,7 +3,7 @@ I create a Custom Rest Client Implementation with RestResponse,RestRequest,RestC
 You can use it give an url and get data with rootelement.
 
 var 
-Client:fCustomRestClient;
+Client:ICustomClient;
 
 Client:=TCustomClient.Createrequest('BaseURL').Get;
 or 
